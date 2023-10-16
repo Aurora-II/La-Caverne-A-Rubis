@@ -1,0 +1,58 @@
+/* Arrière-plan*/
+body{
+	background-image: url("../img/bg_botw.jpg");	
+	background-size: 100% 100%;
+	margin: 0;
+	font-family:SherdowRegular;
+}
+
+#fond{
+	background-color: rgba(51, 186, 140, 0.6);
+	margin-top:5%;
+	margin-left: 8%;
+	margin-right: 8%;
+	min-height: 99vh;
+	border-radius: 2%;
+	padding:10px;
+}
+
+/*header--Logo*/ 
+#Logo {
+	width: 24%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:2%;
+}
+
+#Logo:hover {
+	transform: scale(1.2,1.2);	
+}
+@media (max-width: 1416px){
+	#Logo {
+		width: 50%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Police d'écriture*/
+@font-face {
+    font-family:"SherdowRegular";
+    src: url("../font/SherwoodRegular.ttf") format("truetype");
+}
+@font-face {	
+	font-family:"HyliaSerif";
+    src: url("../font/HyliaSerif.otf") format("truetype");
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/menu.css" />
+		<link rel="stylesheet" href="../../css/PageProduit.css" />
+		<link rel="stylesheet" href="../../css/pied.css" />
+		<title>La Caverne a Rubis : Appareil photo</title>
+		<link rel="icon" href="../../img/rubi.png"/>
+    </head>
+	
+
+	
+	<body>
+		<a href="../../Sombre/Accueil.html"><img src="../../img/logo.png" id="Logo" alt="logo" width="1410" height="389"/></a>
+		<div id="fond">
+			<!--Debut Menu-->
+			<nav>
+				<img class="decogauche" src="../../img/deco-leaves-gold.png" alt="déco"/>
+				<ul>
+					<li class="deroulant"><a href="../../Accueil.html">Accueil</a>
+					<ul class="sous">
+						<li><a href="../Accueil.html#map">Carte</a></li>
+					</ul>
+					<li class="deroulant"><a href="../Potions.html">Potions</a></li>
+					<li class="deroulant"><a href="../Bazar.html">Bazar</a></li>
+					<li class="deroulant"><a href="../Armes.html">Armes</a></li>
+					<li class="deroulant"><a href="#">Autre</a>
+					<ul class="sous">
+						<li><a href="../Lonlon.html">Lait Lonlon</a></li>
+						<li><a href="../Fées.html">Fées</a></li>
+					</ul>
+					</li>
+				</ul>
+				<img  class="decodroite" src="../../img/deco-leaves-gold2.png" alt="déco" >
+			</nav>
+			
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+					<img id="logo" src="../../img/logo.png" alt="logo" width="1410" height="389"/>
+						<a href="../../Accueil.html">Accueil</a>
+						<a href="../../Accueil.html">Carte</a>
+						<a href="../Potions.html">Potions</a>
+						<a href="../Bazar.html">Bazar</a>
+						<a href="../Armes.html">Armes</a>
+						<a href="../Lonlon.html">Lait Lonlon</a>
+						<a href="../Fées.html">Fées</a>
+					</div>
+			</div>
+			
+			<h1 id="menu">
+			<span onclick="openNav()">&#9776;</span>			
+				<img src="../../img/deco-leaves-gold2.png" id="Deco-Fleche" alt="déco"/>
+			</h1>
+	
+			<div class="Align">
+				<div class="Prod">
+				<h1>Appareil photo</h1>	
+					<img  id="ImgProd" src="../../objets/appareilphoto.png" alt="ImageProduit">
+						<div id="Prix" >
+						<p>	150 </p> <img src="../../img/rubi.png" alt="ImageProduit">
+						</div>
+				</div>
+				
+				<div class="General">
+				<h2>Général</h2>
+				Un appareil photographique (couramment : appareil photo) est un objet permettant la capture de vues d'objets réels, en deux dimensions (photographie) ou en relief (stéréoscopie ou stéréophotographie). 
+				</div>
+				
+				<div class="carac">
+				<h2>Caractéristiques</h2>
+				Un appareil photographique se compose au moins d'une chambre noire, dispositif dont les principes sont connus au moins depuis l'Antiquité. Avec d'un côté une ouverture pour faire entrer la lumière émise par la scène à photographier et de l'autre une surface sensible pour enregistrer cette lumière.
+
+Dans le cas le plus fréquent, un objectif est positionné au niveau de l'ouverture. Le plus souvent, il contient un diaphragme permettant de doser la quantité de lumière qui entre, ainsi que la profondeur de champ (ces deux aspects étant liés). Certains objectifs (des modèles simples pour amateurs ou les objectifs catadioptriques) utilisent des ouvertures fixes.
+
+Il existe quelques appareils qui n'utilisent pas d'objectif : les sténopés. Seule une ouverture minuscule permet la formation d'une image relativement nette, ce qui empêche de faire entrer une forte quantité de lumière et aboutit donc à des temps de pose longs. D'où l'intérêt de l'objectif : faire entrer beaucoup plus de lumière (et obtenir une image plus nette).
+
+La plupart du temps, un obturateur qui permet de contrôler le temps d'exposition de la surface sensible est installé. Certaines vieilles chambres s'en passent : l'opérateur (le photographe) enlève juste un bouchon devant l'objectif le temps de la pose - mais cela est valable surtout pour les longues poses, couramment employées aux débuts de la photographie, en accord avec la lenteur des émulsions d'alors.
+
+Les surfaces sensibles utilisées procèdent de deux grandes familles : l'argentique et le numérique. Dans le premier cas, on utilise une émulsion de gélatine et de sels d'argent couchée sur une plaque de verre ou une pellicule, dans le deuxième un capteur (les images sont alors enregistrées sur un support électronique distinct du capteur, le plus souvent une carte mémoire). 
+				</div>
+			</div>
+	
+		</div>
+		
+			<script>
+				function openNav() {
+				  document.getElementById("myNav").style.width = "100%";
+				}
+
+				function closeNav() {
+				  document.getElementById("myNav").style.width = "0%";
+				}
+			</script>
+		<footer>
+			<h2>Informations contacts : </h2>
+			<div id="contact"><a href="../../Contactez-nous.html">Contactez-nous </a></div>
+			<div id="createur">Créateurs: Santos Gonçalo et Burguiere Corentin</div>
+			<div id="liens_rapport">Liens rapport: <a href="../../Documents/Rapport.odt">.odt</a> / <a href="../../Documents/Rapport.pdf">PDF</a> </div>
+			<div id="liens_presentation">Liens présentation: <a href="../../Documents/Presentation.pptx">.pptx</a> / <a href="../../Documents/Presentation.pdf">PDF</a> </div>
+		</footer>
+	</body>
+
+</html>

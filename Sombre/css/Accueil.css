@@ -1,0 +1,90 @@
+body{
+	color:white;
+	font-size:120%;
+}
+
+/*Texte d'Introduction*/
+#Introduction p{
+	font-family:SherdowRegular;
+	font-size: 115%;
+	color:white;
+	text-align: center;
+	margin-left :25%;
+	margin-right :25%;
+}
+/*Separation*/
+.Separation-Fleche{
+	text-align: center; 
+}
+
+.Separation{
+	width: 40%;
+	height: auto;
+}
+
+/*Image et texte d'information n°1*/
+#Information{
+	margin-left: 17%;
+	display: inline-block;
+	
+	/*Bordure :*/
+	width: 23%;
+    border: 7px solid rgba(155,0,0,0.5);
+	border-radius: 2%;
+	padding: 12px;
+	margin-bottom: 10px;
+	background-color: #438B63;
+	background-image: url(../img/pattern1.jpg);
+}
+
+#Information p{
+	font-family:SherdowRegular;
+	font-size: 115%;
+	text-align: center;
+}
+
+#Information img{	
+	width: 50%;
+	height: auto;
+	margin-left:25%;
+}
+
+/*Image et texte d'information n°2*/
+#Information2{
+	display: inline-block;
+	margin-left: 15%;
+	
+	/*Bordure :*/
+	width: 25%;
+    border: 7px solid rgba(155,0,0,0.5);
+	border-radius: 2%;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #438B63;
+	background-image: url(../img/pattern1.jpg);
+}
+
+#Information2 p{
+	font-family:SherdowRegular;
+	font-size: 115%;
+	text-align: center;
+	
+}
+
+#Information2 img{	
+	width: 46%;
+	height: auto;
+	margin-left:25%;
+}
+
+/*C'est la map !! C'est la map*/
+.Localisation{
+	font-family:SherdowRegular;
+	text-align: center;
+}
+
+h1{
+	font-family:HyliaSerif;
+}
+
+

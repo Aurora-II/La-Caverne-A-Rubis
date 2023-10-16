@@ -1,0 +1,23 @@
+
+.Formulaire{
+	background-image: url(img/pattern1.jpg);
+	background-color: rgba(40, 0, 12, 0.8);
+	float:left;
+	padding:20px;
+	color:white;
+	border: 7px solid rgba(193, 0, 58, 0.8);
+	border-radius: 2%;
+	
+	margin-left:40%;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+#msg{
+	left: 90px;
+}
+.button {	
+  padding-left: 69px;
+}

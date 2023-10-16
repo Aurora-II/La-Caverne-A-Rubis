@@ -1,0 +1,167 @@
+	h1{
+		text-align:center;
+		position:relative;
+		color : white;
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.8);
+		font-size:75px;
+	}
+	
+	#ImgProd{
+		display : block;
+		margin-left : auto;
+		margin-right: auto;
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.8);
+		width: 350px;
+		height:auto;
+		padding:20px;
+	}
+	
+	#Prix{
+		position:relative;
+		text-align:center;
+		margin-top:30px;
+		color : white;
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.8);
+		padding:10px;
+		margin-right:40%;
+		margin-left:40%;
+	}
+
+	#Prix img{
+		width:60px;
+		height:60px;
+	
+	}
+
+	p{
+		position:relative;
+		float:left;
+		top:-75px;
+		left:0%;
+		font-size:70px;
+	}
+
+	.General{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position:relative;
+		
+		margin-top : 2%;
+		color: white;
+		background-color:#438B63;
+		border: 5px solid rgba(155,0,0,0.5);
+		background-image: url(../img/pattern2.jpg);
+		width : 700px;
+		font-size:30px;
+	}
+
+	.carac{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position:relative;
+		
+		margin-top : 2%;
+		color: white;
+		background-color:#438B63;
+		border: 5px solid rgba(155,0,0,0.5);
+		background-image: url(../img/pattern2.jpg);
+		width : 700px;
+		font-size:30px;
+	}
+
+@media (min-width: 1815px){ 
+	h1{
+		text-align:center;
+		position:relative;
+		color: white;
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.5);
+		font-size:40px;
+		margin-top:0;
+	}
+
+	h2{
+		text-align:center;
+		font-size:30px;
+		color:white;
+	}
+
+	.Prod{
+		position:relative;
+		margin-left:20%;
+		float: left;	
+	}
+
+	#ImgProd{
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.5);
+		width:325px;
+		height:auto;
+		padding:20px;
+	}
+
+	#Prix{
+		position:relative;
+		text-align:center;
+		margin-top:30px;
+		background-color:#438B63;
+		background-image: url(../img/pattern2.jpg);
+		border: 5px solid rgba(155,0,0,0.5);
+		padding:10px;	
+		margin-right:10%;
+		margin-left:10%;
+	}
+
+	#Prix img{
+		width:60px;
+		height:60px;
+	}
+
+	p{
+		position:relative;
+		float:left;
+		top:-45px;
+		left:20%;
+		margin-right:0;
+		font-size:50px;
+		color:white;
+	}
+
+	.General{
+		position:relative;
+		color:white;
+		background-color:#438B63;
+		border: 5px solid rgba(155,0,0,0.5);
+		margin-right:10%;
+		margin-left:50%;
+		margin-top:21px;
+		padding:15px;
+		background-image: url(../img/pattern2.jpg);
+		font-size:25px;
+	}
+
+	.carac{
+		position:relative;
+		color:white;
+		background-color:#438B63;
+		border: 5px solid rgba(155,0,0,0.5);
+		margin-right:10%;
+		margin-left:50%;
+		padding:15px;
+		margin-top:3%;
+		background-image: url(../img/pattern2.jpg);
+		font-size:25px;
+	}
+}
+
+

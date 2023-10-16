@@ -1,0 +1,173 @@
+@media (min-width: 320px) {
+    .NomProduit{ 
+		font-size: 60%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 820px) {
+    .NomProduit{ 
+		font-size: 75%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 960px) {
+    .NomProduit{
+		font-size: 80%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1120px) {
+    .NomProduit{ 
+		font-size: 90%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1220px) {
+    .NomProduit{ 
+		font-size: 95%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1320px) {
+    .NomProduit{ 
+		font-size: 100%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1420px) {
+    .NomProduit{ 
+		font-size: 100%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1520px) {
+    .NomProduit{ 
+		font-size: 110%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1620px) {
+    .NomProduit{ 
+		font-size: 120%;
+	}
+		.card {
+	  width:70%;
+	}
+
+}
+
+@media (min-width: 1920px) {
+    .NomProduit{ 
+		font-size: 125%;
+	}
+	.card {
+	  width:70%;
+	}
+
+}
+
+@media (max-width: 1416px){
+	.NomProduit{ 
+		font-size: 105%;
+	}
+	.card {
+	  width:110%;
+	  position:relative;
+	  right:50px;
+	}
+}
+
+.NomProduit{ 
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.Produit{
+	width: 75%;
+}
+
+table{
+	margin-left:13%;
+	width:80%;
+	border-spacing: 30px;
+    border-collapse: separate;
+}
+
+td { 
+    padding: 20px;
+}
+
+
+
+.Produit:hover {
+	transform: scale(1.2,1.2) rotate(10deg);;	
+}
+
+
+/* Cadre des produits */
+	.card {
+	  border-style: solid;
+	  border-color:rgba(155,0,0,0.5);
+	  border-radius:25px;
+	  
+	  background-color: rgba(40, 0, 12, 0.8);
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+	  font-family: SherdowRegular;
+	  color: white;
+	  
+	  width:80%;
+	  
+
+	}
+	
+	.card img {
+		margin-top:5%;
+		-webkit-filter: drop-shadow(12px 12px 25px rgba(155,0,0,0.5)); 
+	}
+	
+	/*Prix dans le cadre des produits */
+	.price {
+		margin-bottom:5%;
+		color: white;
+		font-size: 125%;
+	}
+	
+	.price img {
+		width:20%;
+	}
+		
+
+

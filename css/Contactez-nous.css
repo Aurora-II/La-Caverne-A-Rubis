@@ -1,0 +1,22 @@
+
+.Formulaire{
+	background-image: url(img/pattern1.jpg);
+	background-color: #438B63;
+	float:left;
+	padding:20px;
+	border: 7px solid #C6AA6D;
+	border-radius: 2%;
+	
+	margin-left:40%;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+#msg{
+	left: 90px;
+}
+.button {	
+  padding-left: 69px;
+}

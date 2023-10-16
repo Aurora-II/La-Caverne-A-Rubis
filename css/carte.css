@@ -1,0 +1,9 @@
+#map{ 
+	position:relative;
+	margin-left:20%;
+	margin-right:20%;
+	height:500px;
+	width:auto;
+	border: 7px solid #C6AA6D;
+	z-index: 1;
+}

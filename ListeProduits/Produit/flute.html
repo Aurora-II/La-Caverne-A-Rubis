@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/menu.css" />
+		<link rel="stylesheet" href="../../css/PageProduit.css" />
+		<link rel="stylesheet" href="../../css/pied.css" />
+		<title>La Caverne a Rubis : Flûte de la terre</title>
+		<link rel="icon" href="../../img/rubi.png"/>
+    </head>
+	
+
+	
+	<body>
+		<a href="../../Sombre/Accueil.html"><img src="../../img/logo.png" id="Logo" alt="logo" width="1410" height="389"/></a>
+		<div id="fond">
+			<!--Debut Menu-->
+			<nav>
+				<img class="decogauche" src="../../img/deco-leaves-gold.png" alt="déco"/>
+				<ul>
+					<li class="deroulant"><a href="../../Accueil.html">Accueil</a>
+					<ul class="sous">
+						<li><a href="../Accueil.html#map">Carte</a></li>
+					</ul>
+					<li class="deroulant"><a href="../Potions.html">Potions</a></li>
+					<li class="deroulant"><a href="../Bazar.html">Bazar</a></li>
+					<li class="deroulant"><a href="../Armes.html">Armes</a></li>
+					<li class="deroulant"><a href="#">Autre</a>
+					<ul class="sous">
+						<li><a href="../Lonlon.html">Lait Lonlon</a></li>
+						<li><a href="../Fées.html">Fées</a></li>
+					</ul>
+					</li>
+				</ul>
+				<img  class="decodroite" src="../../img/deco-leaves-gold2.png" alt="déco" >
+			</nav>
+			
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+					<img id="logo" src="../../img/logo.png" alt="logo" width="1410" height="389"/>
+						<a href="../../Accueil.html">Accueil</a>
+						<a href="../../Accueil.html">Carte</a>
+						<a href="../Potions.html">Potions</a>
+						<a href="../Bazar.html">Bazar</a>
+						<a href="../Armes.html">Armes</a>
+						<a href="../Lonlon.html">Lait Lonlon</a>
+						<a href="../Fées.html">Fées</a>
+					</div>
+			</div>
+			
+			<h1 id="menu">
+			<span onclick="openNav()">&#9776;</span>			
+				<img src="../../img/deco-leaves-gold2.png" id="Deco-Fleche" alt="déco"/>
+			</h1>
+	
+			<div class="Align">
+				<div class="Prod">
+				<h1>Flûte de la terre</h1>	
+					<img  id="ImgProd" src="../../objets/flute.png" alt="ImageProduit">
+						<div id="Prix" >
+						<p>	500 </p> <img src="../../img/rubi.png" alt="ImageProduit">
+						</div>
+				</div>
+				
+				<div class="General">
+				<h2>Général</h2>
+				La Flûte de la Terre est un objet légendaire, puisqu’il permet aux héros de composer les différentes mélodies apprises tout au long de leurs périples. Autrefois possédée par le peuple des Lokomos, elle fut confiée au héro par Dame Bicelle, leur doyenne. Cette dernière la tenait elle-même de Tetra, lorsque celle-ci, en compagnie de son équipage, accosta sur les terres du Nouvel Hyrule.
+
+				</div>
+				
+				<div class="carac">
+				<h2>Caractéristiques</h2>
+				Instrument de musique magique.
+				</div>
+			</div>
+	
+		</div>
+		
+			<script>
+				function openNav() {
+				  document.getElementById("myNav").style.width = "100%";
+				}
+
+				function closeNav() {
+				  document.getElementById("myNav").style.width = "0%";
+				}
+			</script>
+		<footer>
+			<h2>Informations contacts : </h2>
+			<div id="contact"><a href="../../Contactez-nous.html">Contactez-nous </a></div>
+			<div id="createur">Créateurs: Santos Gonçalo et Burguiere Corentin</div>
+			<div id="liens_rapport">Liens rapport: <a href="../../Documents/Rapport.odt">.odt</a> / <a href="../../Documents/Rapport.pdf">PDF</a> </div>
+			<div id="liens_presentation">Liens présentation: <a href="../../Documents/Presentation.pptx">.pptx</a> / <a href="../../Documents/Presentation.pdf">PDF</a> </div>
+		</footer>
+	</body>
+
+</html>
